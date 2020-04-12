@@ -16,9 +16,9 @@ class CardItem extends Component {
         <div className="col s12 m6">
           <div className="card">
             <div className="card-image">
-              <img src="assets/house1.jpg"/>
+              <img src="assets/house1.jpg" alt="img"/>
               <span className="card-title">{this.state.name}</span>
-              <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
+              <a href="posts" className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
             </div>
             <div className="card-content">
               <p>{this.state.description}</p>

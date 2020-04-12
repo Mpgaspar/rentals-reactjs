@@ -19,6 +19,9 @@ class NavBar extends Component {
           <li>
             <Link to='/contact'>Contact</Link>
           </li>
+          <li>
+            <Link to='/posts'>Show Posts</Link>
+          </li>
         </ul>
       </div>
     </nav>
