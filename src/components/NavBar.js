@@ -22,6 +22,9 @@ class NavBar extends Component {
           <li>
             <Link to='/posts'>Show Posts</Link>
           </li>
+          <li>
+            <Link to='/properties'>Properties</Link>
+          </li>
         </ul>
       </div>
     </nav>
