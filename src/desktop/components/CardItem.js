@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import '../../App.css'
+import MapLocation from '../../components/MapLocation'
 
 class CardItem extends Component {
   
@@ -11,7 +13,8 @@ class CardItem extends Component {
 }
 
   render() {
-      return (    
+      return ( 
+      <>   
         <div class="card">
         <img src="assets/house1.jpg" class="card-img-top" alt="img"/>
         <div class="card-body">
@@ -20,6 +23,8 @@ class CardItem extends Component {
           <a href="/posts" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+      <MapLocation />
+      </>
     )
     }  
 }

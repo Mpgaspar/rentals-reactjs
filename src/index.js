@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import AppDesktop from './desktop/App';
+import 'leaflet/dist/leaflet.css';
 
 const root = document.getElementById('root');
 const rootMobile = document.getElementById('root-mobile');

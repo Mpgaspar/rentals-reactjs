@@ -7,3 +7,7 @@ h1 {
 .test {
   color: red;
 }
+
+.map {
+  height: 300px;
+}

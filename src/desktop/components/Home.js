@@ -5,7 +5,7 @@ import CardItem from '../components/CardItem'
 
 const Home = () => {
     return (
-      <div>
+      <div className="container">
         <h1>Rentals&Buy</h1>
         <CardItem />
       </div>    

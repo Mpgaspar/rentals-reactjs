@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import MapLocation from './MapLocation'
 
 class CardItem extends Component {
   
@@ -11,7 +12,8 @@ class CardItem extends Component {
 }
 
   render() {
-      return (    
+      return ( 
+        <>   
         <div className="row">
         <div className="col s12 m6">
           <div className="card">
@@ -24,8 +26,10 @@ class CardItem extends Component {
               <p>{this.state.description}</p>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
+      <MapLocation />
+      </>
     )
     }  
 }
