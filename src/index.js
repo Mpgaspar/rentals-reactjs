@@ -9,7 +9,7 @@ const rootMobile = document.getElementById('root-mobile');
 const cssFrame = document.getElementById('css-frame');
 
 window.onload = function getDevice() {
-  if(window.innerWidth > 800) {
+  if(window.innerWidth < 800) {
     ReactDOM.render(<App />, rootMobile);
   } else {
     cssFrame.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'

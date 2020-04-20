@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 export default function PropertyList() {
-
+    
     const propperties = useSelector(state => state.data)
     const dispatch = useDispatch()
 
