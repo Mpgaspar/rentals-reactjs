@@ -12,8 +12,8 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="nav-wrapper black"> 
-      <div  data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></div>
-        <Link to='/' className="brand-logo">Logo</Link>
+      <div  data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></div>
+        <Link to='/' className="brand-logo"><img className="logo" src="https://images.vexels.com/media/users/3/147093/isolated/preview/2d9c25ee1fbffdae2909164e858648d1-bot--n-de-inicio-de-instagram-by-vexels.png" alt="img"/></Link>
         <ul id="slide-out" className="sidenav  grey lighten-5">
           <li>
             <Link to='/'>Home</Link>

@@ -1,13 +1,13 @@
 import React from 'react'
 
 // Components
-import CardItem from '../components/CardItem'
+import SearchProperty from '../components/SearchProperty'
 
 const Home = () => {
     return (
       <div className="container">
-        <h1>Rentals&Buy</h1>
-        <CardItem />
+        <h2>Rentals&Buy</h2>
+        <SearchProperty />
       </div>    
     )
 }

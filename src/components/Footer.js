@@ -6,26 +6,23 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
-              <h5 className="white-text">Footer Content</h5>
-              <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <p className="white-text">Terms&Conditions</p>
+              <p className="grey-text text-lighten-4">Privacy Policy</p>
+              
             </div>
             <div className="col l4 offset-l2 s12">
-              <h5 className="white-text">Links</h5>
-              <ul>
+              <h6 className="white-text">Follow us on Social Media</h6>
+              <ul className="footer-links">
                 <li><a className="grey-text text-lighten-3" href="#!"><img src="assets/facebook.png" alt="logo"/></a></li>
                 <li><a className="grey-text text-lighten-3" href="#!"><img src="assets/instagram.png" alt="logo"/></a></li>
                 <li><a className="grey-text text-lighten-3" href="#!"><img src="assets/twitter.png" alt="logo"/></a></li>
                 <li><a className="grey-text text-lighten-3" href="#!"><img src="assets/youtube.png" alt="logo"/></a></li>
               </ul>
+              
             </div>
           </div>
         </div>
-        <div className="footer-copyright">
-          <div className="container">
-          © 2020 Copyright Text
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-          </div>
-        </div>
+        <p className="grey-text text-lighten-4 footer-copyright container">© 2020 Copyright</p>
       </footer>
     )
 }

@@ -15,7 +15,7 @@ export default function PropertyList() {
         <ul>
             { propperties.map(property => <li key={property}>{property}</li>) } 
         </ul>
-        <button type='button' onClick={addProperty}>Add Property</button>
+        <button className="btn waves-effect " onClick={addProperty}>Add Property</button>
         </>
     )
 }

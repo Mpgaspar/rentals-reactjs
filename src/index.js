@@ -16,5 +16,4 @@ window.onload = function getDevice() {
     cssFrame.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
     ReactDOM.render(<AppDesktop />, root);
   }
-  console.log(window.innerWidth);
 }

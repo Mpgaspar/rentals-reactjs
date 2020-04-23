@@ -24,8 +24,7 @@ class App extends Component {
     return (
       <Provider store={store}>
       <Router>
-        <div>
-          <NavBar />
+        <NavBar />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
@@ -33,11 +32,10 @@ class App extends Component {
             <Route path="/posts/:post_id" component={Post} />
             <Route path="/posts" component={Posts} />
             <Route path="/properties" component={PropertyList} />
-          </Switch>
-          <Footer />
-        </div>
+          </Switch>  
       </Router>
-      </Provider>  
+      <Footer />
+      </Provider> 
     )
   }  
 }

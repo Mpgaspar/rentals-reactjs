@@ -4,8 +4,8 @@ import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
     return (
-    <div>    
-      <h1>Contact Us!</h1>
+    <div className="container">    
+      <h2>Contact Us!</h2>
       <ContactForm />
     </div>
     )
