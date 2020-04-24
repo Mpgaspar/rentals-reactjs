@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 
+import Filters from '../components/Filters'
+
 class Posts extends Component {
     state = {
         posts: [ ]
@@ -51,6 +53,7 @@ class Posts extends Component {
 
         return (
             <div className="container">
+            <Filters />  
             <h4 className="center">Properties</h4>
             {postList}
             </div>

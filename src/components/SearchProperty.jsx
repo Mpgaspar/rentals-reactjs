@@ -7,13 +7,13 @@ export default function SearchProperty() {
     
     useEffect(() => {
         var elems = document.querySelectorAll('select');
-        M.FormSelect.init(elems, {});    
+        M.FormSelect.init(elems, {});       
     })
 
     return (
         <div className="row">
             <div className="input-field col s6">
-                <select>
+                <select id="typeInp">
                     <option value="" disabled selected>Choose a type</option>
                     <option value="home">Home</option>
                     <option value="office">Office</option>
